@@ -1,0 +1,102 @@
+/* Page ko center karne ke liye */
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;      /* vertical center */
+  justify-content: center;  /* horizontal center */
+  background: linear-gradient(135deg, #1d2671, #c33764);
+}
+
+/* Todo container */
+.todo-container {
+  width: 100%;
+  max-width: 420px;
+  padding: 40px;
+  border-radius: 18px;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.35);
+  font-family: "Segoe UI", sans-serif;
+  color: #fff;
+  animation: popIn 0.4s ease-in-out;
+}
+
+/* Heading */
+.todo-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+/* Input fields */
+.todo-input {
+  width: 100%;
+  padding:20px 10px;
+  margin-bottom: 22px;
+  border-radius: 12px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+}
+
+/* Add button */
+.add-btn {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+  color: #222;
+  transition: 0.3s;
+}
+
+.add-btn:hover {
+  transform: scale(1.05);
+}
+
+/* Todo list */
+.todo-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 25px;
+}
+
+/* Todo item */
+.todo-item {
+  background: rgba(255, 255, 255, 0.18);
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  backdrop-filter: blur(10px);
+}
+
+/* Delete button */
+.delete-btn {
+  background: #c45b5b;
+  border: none;
+ 
+  width: 60px;
+  height: 40px;
+  cursor: pointer;
+  color: rgb(49, 181, 12);
+  font-size: 16px;
+}
+
+/* Animation */
+@keyframes popIn {
+  from {
+    transform: scale(0.9);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}

@@ -1,3 +1,4 @@
+0
 # 🚀 **Todo List App** - Your Ultimate Task Manager
 
 ![Todo App Banner](https://img.shields.io/badge/React-18.2.0-blue?style=for-the-badge&logo=react) ![Vite](https://img.shields.io/badge/Vite-7.2.4-646CFF?style=for-the-badge&logo=vite) ![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript)
@@ -90,10 +91,13 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 **Contact**
 
-- **Developer**: [Your Name](https://github.com/your-username)
-- **Email**: your.email@example.com
-- **LinkedIn**: [Your LinkedIn](https://linkedin.com/in/your-profile)
+- **Developer**: sanjana
+- **Phone**: 9919261458
+- **Email**: sanjana081220@gmail.com
 
 ---
 
-**Made with ❤️ by [Your Name]** | *Empowering productivity one task at a time!*
+**Made with ❤️ by sanjana** | *Empowering productivity one task at a time!*
+=======
+# todoApp
+

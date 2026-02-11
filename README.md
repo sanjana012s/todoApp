@@ -1,20 +1,99 @@
-<<<<<<< HEAD
-# React + Vite
+# 🚀 **Todo List App** - Your Ultimate Task Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Todo App Banner](https://img.shields.io/badge/React-18.2.0-blue?style=for-the-badge&logo=react) ![Vite](https://img.shields.io/badge/Vite-7.2.4-646CFF?style=for-the-badge&logo=vite) ![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript)
 
-Currently, two official plugins are available:
+Welcome to the **Todo List App**, a sleek and intuitive task management application built with **React** and **Vite**. This app empowers you to organize your daily tasks efficiently, track progress, and stay productive. Whether you're a freelancer, student, or professional, this tool is designed to make task management fun and effortless!
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ **Features**
 
-## React Compiler
+- **📝 Add Tasks**: Easily add tasks with your name, work description, date, and day.
+- **✔️ Mark as Complete**: Complete tasks with a single click and see them crossed out.
+- **🗑️ Delete Tasks**: Remove unwanted tasks instantly.
+- **📅 Date & Day Tracking**: Automatically captures the current date and day for each task.
+- **🎨 Responsive Design**: Works seamlessly on desktop and mobile devices.
+- **⚡ Fast Performance**: Powered by Vite for lightning-fast development and builds.
+- **🔒 User-Friendly**: Simple interface with alerts for incomplete inputs.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🖼️ **Screenshots**
 
-## Expanding the ESLint configuration
+Hover over the images to see a smooth zoom effect!
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# Todo
->>>>>>> 058d2a1646f238e04396cc493a606dbc2b25c630
+<div style="display: flex; justify-content: space-around; flex-wrap: wrap;">
+  <div style="margin: 10px;">
+    <img src="screenshots/screenshot1.png" alt="Todo App Screenshot 1" style="width: 400px; height: auto; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 8px 16px rgba(0,0,0,0.2)';" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 4px 8px rgba(0,0,0,0.1)';">
+    <p style="text-align: center; font-weight: bold; color: #333;">Main Interface</p>
+  </div>
+  <div style="margin: 10px;">
+    <img src="screenshots/screenshot2.png" alt="Todo App Screenshot 2" style="width: 400px; height: auto; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 8px 16px rgba(0,0,0,0.2)';" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 4px 8px rgba(0,0,0,0.1)';">
+    <p style="text-align: center; font-weight: bold; color: #333;">Task Management View</p>
+  </div>
+</div>
+
+## 🛠️ **Technologies Used**
+
+- **Frontend**: React 19.2.0, Vite 7.2.4
+- **Styling**: CSS (Custom styles in App.css and index.css)
+- **Build Tool**: Vite
+- **Linting**: ESLint
+- **Icons**: Emojis for a fun touch! 😊
+
+## 🚀 **Getting Started**
+
+### Prerequisites
+- Node.js (version 14 or higher)
+- npm or yarn
+
+### Installation
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-username/todo-list-app.git
+   cd todo-list-app
+   ```
+
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server**:
+   ```bash
+   npm run dev
+   ```
+   Open [http://localhost:5173](http://localhost:5173) in your browser to view the app.
+
+4. **Build for production**:
+   ```bash
+   npm run build
+   ```
+
+5. **Preview the production build**:
+   ```bash
+   npm run preview
+   ```
+
+## 📖 **Usage**
+
+1. Enter your name and the task description.
+2. Click **"Add ➕"** to add the task.
+3. Mark tasks as complete by clicking **"✔ Complete"**.
+4. Delete tasks using the **"❌"** button.
+5. Enjoy a clutter-free task list!
+
+## 🤝 **Contributing**
+
+Contributions are welcome! Feel free to fork the repo, make changes, and submit a pull request. Let's build something amazing together! 🌟
+
+## 📄 **License**
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 📞 **Contact**
+
+- **Developer**: [Your Name](https://github.com/your-username)
+- **Email**: your.email@example.com
+- **LinkedIn**: [Your LinkedIn](https://linkedin.com/in/your-profile)
+
+---
+
+**Made with ❤️ by [Your Name]** | *Empowering productivity one task at a time!*
